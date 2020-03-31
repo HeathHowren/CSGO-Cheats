@@ -25,4 +25,4 @@ Example: ```int value = 999; WPM<int>(0xD30B94 + 0x4, value);```
 
 
 ## Contributions
-[beans42](https://github.com/beans42)
+* [beans42](https://github.com/beans42)
