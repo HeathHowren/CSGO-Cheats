@@ -21,6 +21,7 @@ Example: ```int value = 999; WPM<int>(0xD30B94 + 0x4, value);```
 
 ## Installation
 Update the addresses and offsets. I reccomend using [Hazedumper](https://github.com/frk1/hazedumper) for this. <br />
+Set the character set to Multi-Byte.
 Build the application as **x86** and run as an administrator.
 
 
