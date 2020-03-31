@@ -13,7 +13,7 @@ A handle is is created  ```HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, NUL
 
 **How to read and write process memory**
 > How to read process memory: ```RPM<variable type>(address +  offsets);``` <br />
-Example: ```
+Example: ```RPM<int>(0xD30B94 + 0x4);```
 >
 How to write process memory: ```WPM<variable type>(address +  offsets, newValue);``` <br />
 Example: ```int value = 999; WPM<int>(0xD30B94 + 0x4, value);```
