@@ -2,7 +2,8 @@
 
 ## Introduction
 
-> This is a collection of cheats for the video-game Counter-Strike: Global Offensive.
+> This is a collection of cheats for the video-game Counter-Strike: Global Offensive.<br />
+These cheats were coded as part of a [YouTube series](https://www.youtube.com/watch?v=1y63M4BvG9A&list=PLzBukBmD3GxuBpWT7xV-pCN-Uu7WwtK7O).
 
 ## Code Samples
 
@@ -21,3 +22,7 @@ Example: ```int value = 999; WPM<int>(0xD30B94 + 0x4, value);```
 ## Installation
 
 > Build the application as x86 and run as an administrator.
+
+
+## Contributions
+[beans42](https://github.com/beans42)
