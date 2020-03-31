@@ -1,4 +1,4 @@
-# CSGO Cheat Library
+# CS:GO Cheat Library
 
 ## Introduction
 
