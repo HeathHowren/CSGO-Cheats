@@ -12,7 +12,7 @@ The window is stored ```HWND hwnd = FindWindowA(NULL, "Counter-Strike: Global Of
 The process ID is retrieved ```GetWindowThreadProcessId(hwnd, &procId);```<br />
 A handle is is created  ```HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, NULL, procId);```
 
-**How to read and write process memory**
+**How to read and write process memory** <br />
 How to read process memory: ```RPM<variable type>(address +  offsets);``` <br />
 Example: ```RPM<int>(0xD30B94 + 0x4);``` <br />
 
