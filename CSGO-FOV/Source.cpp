@@ -1,9 +1,8 @@
-#include "pch.h"
 #include <iostream>
 #include <Windows.h>
 #include <TlHelp32.h>
 
-#define dwEntityList 0x4D44A24
+#define dwEntityList 0x4D42A34
 #define m_iDefaultFOV  0x332C
 
 uintptr_t moduleBase;
@@ -37,7 +36,7 @@ template<typename T> void WPM(SIZE_T address, T buffer) {
 	WriteProcessMemory(hProcess, (LPVOID)address, &buffer, sizeof(buffer), NULL);
 }
 
-int main() {
+void main() {
 	hwnd = FindWindowA(NULL, "Counter-Strike: Global Offensive");
 	GetWindowThreadProcessId(hwnd, &procId);
 	moduleBase = GetModuleBaseAddress("client_panorama.dll");
@@ -49,7 +48,7 @@ int main() {
 		uintptr_t localPlayer = RPM<uintptr_t>(moduleBase + dwEntityList);
 		int iFOV = RPM<int>(localPlayer + m_iDefaultFOV);
 		std::cout << "FOV: " << iFOV << std::endl;
-		
+
 		if (GetAsyncKeyState(0x76 /*F7*/) & 1)
 		{
 			//minus
