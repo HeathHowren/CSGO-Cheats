@@ -1,4 +1,4 @@
-# Frequentlt asked questions and issues
+# Frequently asked questions and issues
 
 ## Issues
 
