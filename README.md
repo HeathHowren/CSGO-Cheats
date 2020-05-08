@@ -21,8 +21,10 @@ Example: ```int value = 999; WPM<int>(0xD30B94 + 0x4, value);```
 
 ## Installation
 Update the addresses and offsets. I reccomend using [Hazedumper](https://github.com/frk1/hazedumper) for this. <br />
-Set the character set to Multi-Byte.
-Build the application as **x86** and run as an administrator.
+Set the character set to Multi-Byte.<br />
+Build the application as **x86** and run as an administrator.<br />
+**Error trouble shooting**<br />
+If you are having issues compiling check out the [faq](https://github.com/HeathHowren/CSGO-Cheats/blob/master/faq.md) for common issues I've seen!<br />
 
 
 ## Contributions
