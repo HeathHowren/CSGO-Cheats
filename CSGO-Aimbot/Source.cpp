@@ -132,8 +132,9 @@ int FindClosestEnemy() {
 			Closest = Finish;
 			ClosestEntity = i; 
 		}
-		return ClosestEntity;
 	}
+
+	return ClosestEntity;
 }
 
 void DrawLine(float StartX, float StartY, float EndX, float EndY) { //This function is optional for debugging.
