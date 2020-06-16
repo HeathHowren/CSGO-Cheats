@@ -155,7 +155,7 @@ void FindClosestEnemyThread() {
 int main() {
 	hwnd = FindWindowA(NULL, "Counter-Strike: Global Offensive");
 	GetWindowThreadProcessId(hwnd, &procId); 
-	moduleBase = GetModuleBaseAddress("client_panorama.dll"); 
+	moduleBase = GetModuleBaseAddress("client.dll"); 
 	hProcess = OpenProcess(PROCESS_ALL_ACCESS, NULL, procId); 
 	hdc = GetDC(hwnd);
 	CreateThread(NULL, NULL, (LPTHREAD_START_ROUTINE)FindClosestEnemyThread, NULL, NULL, NULL); 
