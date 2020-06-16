@@ -36,7 +36,7 @@ template<typename T> void WPM(SIZE_T address, T buffer) {
 void main() {
     GetWindowThreadProcessId(FindWindowA(0, "Counter-Strike: Global Offensive"), &dwPid);
     hProcess = OpenProcess(PROCESS_ALL_ACCESS, 0, dwPid);
-    client = GetModule("client_panorama.dll", dwPid);
+    client = GetModule("client.dll", dwPid);
  
     while (true) {
         for (int i = 1; i < 64; i++) {
