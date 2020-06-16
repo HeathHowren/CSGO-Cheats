@@ -39,7 +39,7 @@ template<typename T> void WPM(SIZE_T address, T buffer) {
 void main() {
 	hwnd = FindWindowA(NULL, "Counter-Strike: Global Offensive");
 	GetWindowThreadProcessId(hwnd, &procId);
-	moduleBase = GetModuleBaseAddress("client_panorama.dll");
+	moduleBase = GetModuleBaseAddress("client.dll");
 	hProcess = OpenProcess(PROCESS_ALL_ACCESS, NULL, procId);
 	int fov = 90;
 
