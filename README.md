@@ -2,7 +2,7 @@
 
 The source code for the **Legacy: CS:GO cheat series** on the [Cyborg Elf YouTube channel](https://www.youtube.com/@CyborgElf): seven small external C++ projects, one per episode.
 
-> **Legacy code, kept for education.** Written in 2018–2020. CS:GO has since been replaced by CS2, so every offset here is long dead and none of this will work against the current game. It is kept as a record of how the techniques work: reading and writing another process's memory, aimbot geometry, overlays. Practise on software you own or on open-source games, never on online multiplayer games.
+> **Legacy code, kept for education.** Written in 2018–2020. CS:GO has since been replaced by CS2, so every offset here is long dead and none of this will work against the current game. It is kept as a record of how the techniques work: reading and writing another process's memory, aimbot geometry, overlays. Practice on software you own or on open-source games, never on online multiplayer games.
 >
 > The modern, fully explained versions of these techniques are in [The Game Hacker's Handbook](https://gamereversal.club/books/game-hackers-handbook/), and [Pointer Lab](https://gamereversal.club/tools/pointer-lab/) is the free, open-source memory tool built alongside it.
 
